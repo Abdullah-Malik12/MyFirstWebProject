@@ -16,23 +16,54 @@ body
 
    }
 
-   #info 
+   /* #info 
    {
-        width: 5;
-        margin: 20;
-        padding: 20;
+     display: flex;
+  justify-content: left;
+        width: 2;
+        margin: 5;
+        padding: 10;
         border-color: rgb(156, 93, 10);
         background-color: rgb(233, 188, 138);
         border-style:solid;
+        
    }
 
    #book
    {
-     width: 5;
-     margin: 20;
-     padding: 20;
-     border-color: rgb(197, 82, 37);
+     display: flex;
+     justify-content: center; 
+     gap: 40px; 
+     margin: 20px auto;
+     flex-wrap: wrap; 
+        
+      /* width: 2;
+     margin: 5;
+     padding: 10; */
+      border-color: rgb(197, 122, 37);
      background-color: rgb(236, 189, 126);
-     border-style:solid;
+     border-style:solid; 
+   } 
+
+
+   #profile {
+     display: flex;
+     justify-content: center;
+     gap: 40px; 
+     margin: 20px auto;
+     flex-wrap: wrap; 
    }
+   
+   #info, #book {
+     width: 300px;
+     padding: 10px;
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     border-color: rgb(197, 122, 37);
+     background-color: rgb(236, 189, 126);
+     border-style:solid; 
+   }
+
+ 
 }

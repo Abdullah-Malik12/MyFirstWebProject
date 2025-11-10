@@ -1,0 +1,38 @@
+body 
+{
+    background-color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+
+   #container
+   {
+        width: 20;
+        margin: 10;
+        padding: 15;
+        border-color: rgb(212, 148, 52);
+        border-style:solid;
+        background-color: rgb(247, 217, 188);
+
+   }
+
+   #info 
+   {
+        width: 5;
+        margin: 20;
+        padding: 20;
+        border-color: rgb(156, 93, 10);
+        background-color: rgb(233, 188, 138);
+        border-style:solid;
+   }
+
+   #book
+   {
+     width: 5;
+     margin: 20;
+     padding: 20;
+     border-color: rgb(197, 82, 37);
+     background-color: rgb(236, 189, 126);
+     border-style:solid;
+   }
+}
